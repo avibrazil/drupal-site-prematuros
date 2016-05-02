@@ -1,0 +1,28 @@
+uuid: 56C26035-44FD-436E-8229-5173134CCFCE
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_antidepress
+    - node.type.prematuro
+    - taxonomy.vocabulary.tristate
+id: node.prematuro.field_antidepress
+field_name: field_antidepress
+entity_type: node
+bundle: prematuro
+label: Andidepressivos
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tristate: tristate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

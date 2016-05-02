@@ -1,0 +1,28 @@
+uuid: ED4F5D8B-3B85-465E-9FB7-5890B6021E83
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cirurgast
+    - node.type.prematuro
+    - taxonomy.vocabulary.bistate
+id: node.prematuro.field_cirurgast
+field_name: field_cirurgast
+entity_type: node
+bundle: prematuro
+label: 'Cirurgia Gastrostomia'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      bistate: bistate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,20 @@
+uuid: 51BF21D8-1C1F-4916-AC00-CA6AB8391C05
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_metainsren
+field_name: field_metainsren
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

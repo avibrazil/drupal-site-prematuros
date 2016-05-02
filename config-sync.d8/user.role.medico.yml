@@ -1,0 +1,11 @@
+uuid: 00738088-7e24-4100-b45a-9450ce8fed69
+langcode: en
+status: true
+dependencies: {  }
+id: medico
+label: Médico
+weight: 3
+is_admin: null
+permissions:
+  - 'create prematuro content'
+  - 'edit any prematuro content'

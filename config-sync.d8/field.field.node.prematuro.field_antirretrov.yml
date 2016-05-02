@@ -1,0 +1,28 @@
+uuid: 285DC6EB-9D76-4A77-9A13-7A7A306C1E0F
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_antirretrov
+    - node.type.prematuro
+    - taxonomy.vocabulary.tristate
+id: node.prematuro.field_antirretrov
+field_name: field_antirretrov
+entity_type: node
+bundle: prematuro
+label: Antirretrovirais
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tristate: tristate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

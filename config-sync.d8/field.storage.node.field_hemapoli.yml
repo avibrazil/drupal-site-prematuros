@@ -1,0 +1,20 @@
+uuid: 36C83F6E-FECC-4C6C-8152-975830A0984D
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_hemapoli
+field_name: field_hemapoli
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

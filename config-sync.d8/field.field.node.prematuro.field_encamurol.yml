@@ -1,0 +1,28 @@
+uuid: BA694024-61FA-4ED3-AD8E-2D617B14D8AD
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_encamurol
+    - node.type.prematuro
+    - taxonomy.vocabulary.bistate
+id: node.prematuro.field_encamurol
+field_name: field_encamurol
+entity_type: node
+bundle: prematuro
+label: 'Encaminhamento - Urologia'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      bistate: bistate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

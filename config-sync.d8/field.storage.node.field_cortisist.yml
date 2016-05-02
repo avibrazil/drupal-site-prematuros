@@ -1,0 +1,20 @@
+uuid: 2414839F-B40F-4AB5-840E-987FA22651B2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_cortisist
+field_name: field_cortisist
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

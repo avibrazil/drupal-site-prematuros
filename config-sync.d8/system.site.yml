@@ -1,0 +1,14 @@
+uuid: dfa8d0c4-99d8-4a7a-a94c-8ff4f7199cb3
+name: 'Os Prematuros'
+mail: avibrazil@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

@@ -1,0 +1,22 @@
+uuid: 984e11d3-b063-4ec1-93a8-60006dec6ca3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.prematuro
+id: node.prematuro.sticky
+field_name: sticky
+entity_type: node
+bundle: prematuro
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

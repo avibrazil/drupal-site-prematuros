@@ -1,0 +1,20 @@
+uuid: EDF042DC-8BE2-43C7-961B-272547FC5D92
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_metahipern
+field_name: field_metahipern
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,20 @@
+uuid: 3C22B27D-2161-4B6E-AD47-C9BE0214E695
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_encamcirped
+field_name: field_encamcirped
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

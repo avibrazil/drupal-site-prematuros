@@ -1,0 +1,28 @@
+uuid: 0C45E609-60E5-488A-93BE-40710846295E
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tabaco
+    - node.type.prematuro
+    - taxonomy.vocabulary.tristate
+id: node.prematuro.field_tabaco
+field_name: field_tabaco
+entity_type: node
+bundle: prematuro
+label: Tabaco
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tristate: tristate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,20 @@
+uuid: 35591E1E-9DE8-4FC7-A7D7-99883B74CD28
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_sondagastr
+field_name: field_sondagastr
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,28 @@
+uuid: 908BEDB1-C438-41E8-A766-A37E1C6CA4C6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cocaina
+    - node.type.prematuro
+    - taxonomy.vocabulary.tristate
+id: node.prematuro.field_cocaina
+field_name: field_cocaina
+entity_type: node
+bundle: prematuro
+label: cocaína
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tristate: tristate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

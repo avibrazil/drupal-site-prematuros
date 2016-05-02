@@ -1,0 +1,28 @@
+uuid: B4D4CF1A-DCD7-4F53-8065-5165A509F5FF
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_infecsepfun
+    - node.type.prematuro
+    - taxonomy.vocabulary.bistate
+id: node.prematuro.field_infecsepfun
+field_name: field_infecsepfun
+entity_type: node
+bundle: prematuro
+label: 'Infecção Sepse Fungica'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      bistate: bistate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

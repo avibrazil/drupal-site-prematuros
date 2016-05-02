@@ -1,0 +1,28 @@
+uuid: 20F86918-2BAC-4F50-9F9A-09957414E1B4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rmcranio
+    - node.type.prematuro
+    - taxonomy.vocabulary.bistate
+id: node.prematuro.field_rmcranio
+field_name: field_rmcranio
+entity_type: node
+bundle: prematuro
+label: 'RM crânio'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      bistate: bistate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

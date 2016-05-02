@@ -1,0 +1,16 @@
+uuid: 2b275a37-ff74-435a-90de-acdb27db097f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.prematuro
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: node.prematuro
+target_entity_type_id: node
+target_bundle: prematuro
+default_langcode: current_interface
+language_alterable: true

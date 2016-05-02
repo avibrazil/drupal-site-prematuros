@@ -1,0 +1,28 @@
+uuid: A5E8AE0A-ABD8-4605-92F3-175FCDB69838
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_icterdhrnrh
+    - node.type.prematuro
+    - taxonomy.vocabulary.bistate
+id: node.prematuro.field_icterdhrnrh
+field_name: field_icterdhrnrh
+entity_type: node
+bundle: prematuro
+label: 'Icterícia DHRN-Rh'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      bistate: bistate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

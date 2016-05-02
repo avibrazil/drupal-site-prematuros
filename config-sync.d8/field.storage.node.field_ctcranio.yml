@@ -1,0 +1,20 @@
+uuid: DBEC32B2-E266-42D6-B397-323B21686629
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_ctcranio
+field_name: field_ctcranio
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

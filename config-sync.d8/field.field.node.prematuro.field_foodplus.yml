@@ -1,0 +1,28 @@
+uuid: 4DD1B987-51BF-49A8-8BBB-102717DD8DD6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_foodplus
+    - node.type.prematuro
+    - taxonomy.vocabulary.tristate
+id: node.prematuro.field_foodplus
+field_name: field_foodplus
+entity_type: node
+bundle: prematuro
+label: 'FO OD Plus'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tristate: tristate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

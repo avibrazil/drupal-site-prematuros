@@ -1,0 +1,9 @@
+uuid: cf39152e-8da0-4e7a-a692-506420733bf9
+langcode: en
+status: true
+dependencies: {  }
+name: 'Blood type'
+vid: blood_type
+description: ''
+hierarchy: 0
+weight: -9

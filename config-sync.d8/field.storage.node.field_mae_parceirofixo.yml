@@ -1,0 +1,18 @@
+uuid: 292b76c5-2d97-4621-87e9-ea58f0afbbba
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_mae_parceirofixo
+field_name: field_mae_parceirofixo
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

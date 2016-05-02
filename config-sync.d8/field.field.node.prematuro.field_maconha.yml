@@ -1,0 +1,28 @@
+uuid: ADD6A1C8-F729-4F46-A8E5-095966E6433A
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_maconha
+    - node.type.prematuro
+    - taxonomy.vocabulary.tristate
+id: node.prematuro.field_maconha
+field_name: field_maconha
+entity_type: node
+bundle: prematuro
+label: maconha
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tristate: tristate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

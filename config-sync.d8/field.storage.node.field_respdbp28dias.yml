@@ -1,0 +1,20 @@
+uuid: CE5C543D-F218-423B-9CDA-3E35A5E04A30
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_respdbp28dias
+field_name: field_respdbp28dias
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,21 @@
+uuid: e7a181f1-57dd-4f3e-b754-e6d2e0c053e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mae_nascimento
+    - node.type.prematuro
+  module:
+    - datetime
+id: node.prematuro.field_mae_nascimento
+field_name: field_mae_nascimento
+entity_type: node
+bundle: prematuro
+label: 'Nascimento da mãe'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

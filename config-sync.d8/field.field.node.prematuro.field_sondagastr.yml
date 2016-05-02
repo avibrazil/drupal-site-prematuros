@@ -1,0 +1,28 @@
+uuid: 13527CBD-32C8-4698-95C6-29A9F213B84B
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sondagastr
+    - node.type.prematuro
+    - taxonomy.vocabulary.bistate
+id: node.prematuro.field_sondagastr
+field_name: field_sondagastr
+entity_type: node
+bundle: prematuro
+label: 'Sonda gástrica'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      bistate: bistate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

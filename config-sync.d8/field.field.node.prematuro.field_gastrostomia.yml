@@ -1,0 +1,28 @@
+uuid: A24A8ED1-830A-4FB5-A64C-F12F25DE6902
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gastrostomia
+    - node.type.prematuro
+    - taxonomy.vocabulary.bistate
+id: node.prematuro.field_gastrostomia
+field_name: field_gastrostomia
+entity_type: node
+bundle: prematuro
+label: Gastrostomia
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      bistate: bistate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

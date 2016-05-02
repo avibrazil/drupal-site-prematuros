@@ -1,0 +1,20 @@
+uuid: DA5D9629-9D32-4B14-9B38-645EBE3A8349
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_infecostart
+field_name: field_infecostart
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,18 @@
+uuid: d7054887-4a5d-4a9c-a93b-9f20a82cb0db
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.prematuro
+id: node.prematuro.changed
+field_name: changed
+entity_type: node
+bundle: prematuro
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

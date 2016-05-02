@@ -1,0 +1,28 @@
+uuid: 41BAA8DC-07AC-4676-9E7C-200036C7C343
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_indomibuprofeno
+    - node.type.prematuro
+    - taxonomy.vocabulary.bistate
+id: node.prematuro.field_indomibuprofeno
+field_name: field_indomibuprofeno
+entity_type: node
+bundle: prematuro
+label: 'Indometacina Ibuprofeno'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      bistate: bistate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

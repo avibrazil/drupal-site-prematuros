@@ -1,0 +1,20 @@
+uuid: 2404022E-77D1-4FB3-B4E9-1789CE3B93F8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_metahipog
+field_name: field_metahipog
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

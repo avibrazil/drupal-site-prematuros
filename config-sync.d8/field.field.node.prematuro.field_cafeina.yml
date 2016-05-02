@@ -1,0 +1,28 @@
+uuid: 84812B40-40B6-47A2-B30A-FE322F965104
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cafeina
+    - node.type.prematuro
+    - taxonomy.vocabulary.bistate
+id: node.prematuro.field_cafeina
+field_name: field_cafeina
+entity_type: node
+bundle: prematuro
+label: Cafeína
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      bistate: bistate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,28 @@
+uuid: 18D8636B-7AB6-4AED-881D-CA661D16EDB2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sifilis
+    - node.type.prematuro
+    - taxonomy.vocabulary.tristate
+id: node.prematuro.field_sifilis
+field_name: field_sifilis
+entity_type: node
+bundle: prematuro
+label: Sifilis
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tristate: tristate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

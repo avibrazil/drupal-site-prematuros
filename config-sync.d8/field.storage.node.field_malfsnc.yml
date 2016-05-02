@@ -1,0 +1,20 @@
+uuid: 2D9A5260-09E2-4192-90C7-B80661C563A8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_malfsnc
+field_name: field_malfsnc
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,16 @@
+uuid: db2bf790-a7f5-4e15-979e-a03120556203
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.gender
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.gender
+target_entity_type_id: taxonomy_term
+target_bundle: gender
+default_langcode: current_interface
+language_alterable: true

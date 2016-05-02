@@ -1,0 +1,20 @@
+uuid: 1FD90723-8E9A-4309-AD6E-A6772C7A966D
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_cardiohipotart
+field_name: field_cardiohipotart
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

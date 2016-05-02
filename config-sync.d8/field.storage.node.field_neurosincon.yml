@@ -1,0 +1,20 @@
+uuid: 78A9C6CF-4ACE-4012-8DC3-31C115AE1F73
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_neurosincon
+field_name: field_neurosincon
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

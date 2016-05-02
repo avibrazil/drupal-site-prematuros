@@ -1,0 +1,28 @@
+uuid: 9762B1A8-0A71-43B7-8122-639ABA6DAFEE
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_respdbp28dias
+    - node.type.prematuro
+    - taxonomy.vocabulary.bistate
+id: node.prematuro.field_respdbp28dias
+field_name: field_respdbp28dias
+entity_type: node
+bundle: prematuro
+label: 'Respiratório DBP 28 dias'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      bistate: bistate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

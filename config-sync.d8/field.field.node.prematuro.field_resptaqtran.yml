@@ -1,0 +1,28 @@
+uuid: 3DC56565-34E3-4C3F-B022-4834761104FA
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_resptaqtran
+    - node.type.prematuro
+    - taxonomy.vocabulary.bistate
+id: node.prematuro.field_resptaqtran
+field_name: field_resptaqtran
+entity_type: node
+bundle: prematuro
+label: 'Respiratório Taquipnéia Transitória'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      bistate: bistate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

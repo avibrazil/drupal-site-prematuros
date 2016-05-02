@@ -1,0 +1,28 @@
+uuid: fe160f0d-fc86-4a75-adac-1235163451f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mother_rh
+    - node.type.prematuro
+    - taxonomy.vocabulary.rh
+id: node.prematuro.field_mother_rh
+field_name: field_mother_rh
+entity_type: node
+bundle: prematuro
+label: 'RH da mãe'
+description: 'O RH da mãe'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      rh: rh
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

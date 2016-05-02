@@ -1,0 +1,20 @@
+uuid: 869c175c-783d-4034-8ae1-f2bf2ae366e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.prematuro
+id: node.prematuro.uid
+field_name: uid
+entity_type: node
+bundle: prematuro
+label: 'Authored by'
+description: 'The username of the content author.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

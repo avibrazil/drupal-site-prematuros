@@ -1,0 +1,28 @@
+uuid: CDF75A6D-4A48-44D0-99BB-63310870276C
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_opioides
+    - node.type.prematuro
+    - taxonomy.vocabulary.bistate
+id: node.prematuro.field_opioides
+field_name: field_opioides
+entity_type: node
+bundle: prematuro
+label: Opióides
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      bistate: bistate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

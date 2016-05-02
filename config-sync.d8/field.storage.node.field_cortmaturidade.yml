@@ -1,0 +1,20 @@
+uuid: 3AC790E7-E0E4-41C8-92CF-7CC2C7667B8D
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_cortmaturidade
+field_name: field_cortmaturidade
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

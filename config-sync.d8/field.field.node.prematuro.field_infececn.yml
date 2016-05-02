@@ -1,0 +1,28 @@
+uuid: 3C91380C-558F-4196-9084-9E658E7B8855
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_infececn
+    - node.type.prematuro
+    - taxonomy.vocabulary.bistate
+id: node.prematuro.field_infececn
+field_name: field_infececn
+entity_type: node
+bundle: prematuro
+label: 'Infecção ECN'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      bistate: bistate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,24 @@
+uuid: 5792ab61-1c86-4225-9aa1-84e4837034e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_computed_narrated_mae
+    - node.type.prematuro
+  module:
+    - computed_field
+id: node.prematuro.field_computed_narrated_mae
+field_name: field_computed_narrated_mae
+entity_type: node
+bundle: prematuro
+label: 'Computed narrated mãe'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings:
+  code: "$nas = new DateTime($entity->field_mae_nascimento->value);\r\n$now = new DateTime(\"now\");\r\n\r\n$delta = $now->diff($nas,true);\r\n$idade = $delta->y;\r\n\r\n// -------\r\n\r\nswitch ($entity->field_mother_rh->target_id) {\r\n    case 3:\r\n\t\t$rh=\"➕\";\r\n\t\tbreak;\r\n    case 4:\r\n\t\t$rh=\"➖\";\r\n\t\tbreak;\r\n\tdefault:\r\n\t\t$rh=\"indefinido\";\r\n}\r\n\r\n// -------\r\n\r\n$pnas = new DateTime($entity->field_pai_nascimento->value);\r\n\r\n$delta = $now->diff($pnas,true);\r\n$pidade = $delta->y;\r\n\r\n$value = sprintf(\"<strong>%s</strong> • RH%s • <strong>%d</strong> anos • <strong>%s</strong>parceiro fixo.<br/>Pai tem <strong>%d</strong> anos.\",\r\n\t$entity->field_mae_nome->value,\r\n\t$rh,\r\n\t$idade,\r\n\t$entity->field_mae_parceirofixo->value?'':'sem ',\r\n\t$pidade);"
+field_type: computed_string

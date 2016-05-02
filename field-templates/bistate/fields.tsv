@@ -1,0 +1,112 @@
+luperisist	Lúpus eritematosos sistêmico
+traorgsol	Transplante de órgãos sólidos
+polhemextcor	Politransfundida/Hemodiálise/Extra-corpórea
+diamel	Diabetes melito
+insrenal	Insuficiência renal
+anefalc	Anemia falciforme
+malfam	Malformações Família
+dheg	DHEG
+incomcervical	Incompetência cervical
+deslpremplac	Descolocamento prematuro de placenta
+corioamnionite	Corioamnionite
+diabgestacional	Diabetes gestacional 
+infecurinaria	Infecção Urinária
+placprevia	Placenta prévia
+isoirh	Isoimunização Rh
+tranfetofetal	Transfusão feto-fetal
+respsdr	Respiratório SDR
+resptaqtran	Respiratório Taquipnéia Transitória
+respaspmec	Respiratório S. Aspiração de Mecônio
+resphippul	Respiratório Hipertensão Pulmonar 
+respescar	Respiratório S. Escape Ar
+resppneu	Respiratório Pneumonia
+resphempul	Respiratório Hemorragia Pulmonar
+respdbp28dias	Respiratório DBP 28 dias
+respdbp36sem	Respiratório DBP 36 semanas
+respdbp40sem	Respiratório DBP 40 semanas
+respapneia	Respiratório Apneia
+icterproppt	Icterícia Própria PT
+icterdhrnrh	Icterícia DHRN-Rh
+icterdrrnabo	Icterícia DRRN-ABO
+icterdefgpd	Ictericia Deficiência G¨PD
+icterhipdir	Icterícia Hiperbilirrubinemia Direta
+cardiopca	Cardiovascular PCA
+cardiohiperart	Cardiovascular Hipertensão Arterial
+cardiohipotart	Cardiovascular Hipotensão Arterial
+infecconsifilis	Infecção Congênita Sífilis
+infecconcmv	Infecção Congênita CMV
+infeccontox	Infecção Congênita Toxoplasmose
+infecconrub	Infecção Congênita Rubéola
+infecseppre	Infecção Sepse Precoce
+infecseptar	Infecção Sepse Tardia
+infecsepfun	Infecção Sepse Fungica
+infecmening	Infecção Meningite
+infececn	Infecção ECN
+infecostart	Infecção Osteo-articular
+metahipog	Metabólico Hipoglicemia
+metahiper	Metabólico Hiperglicemia
+metahipon	Metabólico Hiponatremia
+metahipern	Metabólico Hipernatremia
+metahiperp	Metabólico Hiperpotassemia
+metainsren	Metabólico Insuficiência Renal
+metadoemetoss	Metabólico Doença Metabólica Óssea
+metahipocong	Metabólico Hipotireoidismo congênito
+metafibcis	Metabólico Fibrose Cística
+metaerrinamet	Metabólico Erro Inato do Metabolismo
+hemaanem	Hematológico Anemia
+hemapoli	Hematológico Policitemia
+hemacivd	Hematológico CIVD
+hemaplaq	Hematológico Plaquetopenia
+neurohidposhem	Neurológico Hidrocefalia pós-hemorrágica
+neurosincon	Neurológico Síndrome Convulsiva
+neurooutros	Neurológico Outros
+malfsnc	Malformação SNC
+malfcabpes	Malformação Cabeça e Pescoço
+malfpulm	Malformação Pulmonar
+malfcard	Malformação Cardíaca
+malfgast	Malformação Gastrintestinal
+malfonfgas	Malformação Onfalocele/gastrosquize
+malfrenal	Malformação Renal
+malfurog	Malformação Urogenital
+malfort	Malformação Ortopédica
+malfsindgen	Malformação Síndrome Genética
+outdoenintcurto	Outras Doencas S.Intestino Curto
+antibiotico	Antibiótico
+aminoglic	Aminoglicosídeo
+vancomicina	Vancomicina
+surfactante	Surfactante
+indomibuprofeno	Indometacina Ibuprofeno
+vasoativas	Vasoativas
+cafeina	Cafeína
+furosemida	Furosemida
+diuretoutros	Diuréticos - Outros
+broncodilat	Broncodilatador
+cortisist	Corticoide sistêmico
+cortinal	Corticoide inalatório
+opioides	Opióides
+sedativos	Sedativos
+anticonvul	Anti-convulsivantes
+dialise	Diálise
+drentorac	Drenagem torácida
+hipoterap	Hipotermia Terapêutica
+cirurpca	Cirurgia PCA
+cirurdvp	Cirurgia DVP
+cirurecn	Cirurgia ECN
+cirurrop	Cirurgia ROP
+cirurgast	Cirurgia Gastrostomia
+cirurtraqu	Cirurgia Traqueostomia
+ciruroutros	Cirurgia Outros
+uscranio	US crânio
+ctcranio	CT crânio
+rmcranio	RM crânio
+oxigenio	Oxigênio
+gastrostomia	Gastrostomia
+traquostomia	Traqueostomia
+sondagastr	Sonda gástrica
+encamcardio	Encaminhamento - Cardiologia
+encamneuro	Encaminhamento - Neurocirurgia
+encamcirped	Encaminhamento - Cirurgia Pediátrica
+encamurol	Encaminhamento - Urologia
+encamnefrol	Encaminhamento - Nefrologia
+encamgene	Encaminhamento - Genética
+encamoutros	Encaminhamento - Outros

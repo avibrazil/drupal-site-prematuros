@@ -1,0 +1,20 @@
+uuid: 153ADFAA-B746-426B-A45E-6B1A6B0BA2B8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_incomcervical
+field_name: field_incomcervical
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

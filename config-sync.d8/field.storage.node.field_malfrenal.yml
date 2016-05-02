@@ -1,0 +1,20 @@
+uuid: 85ECC481-7F0B-4BA9-AEA2-C538ACFF1680
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_malfrenal
+field_name: field_malfrenal
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,20 @@
+uuid: b0764725-5243-4f79-9229-947a653dbd37
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_pai_nascimento
+field_name: field_pai_nascimento
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,20 @@
+uuid: eebd6feb-25f7-4841-bc3f-4a0caebd02e2
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_mae_nascimento
+field_name: field_mae_nascimento
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

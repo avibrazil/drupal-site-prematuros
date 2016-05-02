@@ -1,0 +1,28 @@
+uuid: BB29F451-D01C-4B93-974D-9B2DDE662191
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_eoadireito
+    - node.type.prematuro
+    - taxonomy.vocabulary.tristate
+id: node.prematuro.field_eoadireito
+field_name: field_eoadireito
+entity_type: node
+bundle: prematuro
+label: EOA-Direito
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tristate: tristate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

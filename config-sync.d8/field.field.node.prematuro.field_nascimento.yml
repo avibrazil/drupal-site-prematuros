@@ -1,0 +1,21 @@
+uuid: 4f9ff16f-6fb0-44ef-8cb9-b03573f70e75
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nascimento
+    - node.type.prematuro
+  module:
+    - datetime
+id: node.prematuro.field_nascimento
+field_name: field_nascimento
+entity_type: node
+bundle: prematuro
+label: 'Data de nascimento'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

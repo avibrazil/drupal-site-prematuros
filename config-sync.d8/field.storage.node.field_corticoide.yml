@@ -1,0 +1,20 @@
+uuid: 9FC29E55-61B7-472A-88C7-3A62D3DEC00F
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_corticoide
+field_name: field_corticoide
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

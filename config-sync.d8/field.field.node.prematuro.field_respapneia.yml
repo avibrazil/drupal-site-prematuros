@@ -1,0 +1,28 @@
+uuid: 57791B97-6AA3-417A-A9CA-5B10D2880DA3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_respapneia
+    - node.type.prematuro
+    - taxonomy.vocabulary.bistate
+id: node.prematuro.field_respapneia
+field_name: field_respapneia
+entity_type: node
+bundle: prematuro
+label: 'Respiratório Apneia'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      bistate: bistate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

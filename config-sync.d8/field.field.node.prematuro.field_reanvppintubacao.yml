@@ -1,0 +1,28 @@
+uuid: FAFD85FF-9E36-4EFE-8C60-612C03046CE1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_reanvppintubacao
+    - node.type.prematuro
+    - taxonomy.vocabulary.tristate
+id: node.prematuro.field_reanvppintubacao
+field_name: field_reanvppintubacao
+entity_type: node
+bundle: prematuro
+label: 'Reanimação VPP intubação'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tristate: tristate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

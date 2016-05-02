@@ -1,0 +1,20 @@
+uuid: 40F5DD27-09C0-4C3B-A71A-0D80B1DAAF3C
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_oxigenio
+field_name: field_oxigenio
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

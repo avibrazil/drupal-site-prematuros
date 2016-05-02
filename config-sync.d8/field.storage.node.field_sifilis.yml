@@ -1,0 +1,20 @@
+uuid: 7632BDCA-59D1-4CC9-BF20-B2A884C27782
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_sifilis
+field_name: field_sifilis
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

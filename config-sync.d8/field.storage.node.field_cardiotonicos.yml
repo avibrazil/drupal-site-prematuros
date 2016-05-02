@@ -1,0 +1,20 @@
+uuid: 2D33FF44-9457-420B-90DB-5A43D03C3565
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_cardiotonicos
+field_name: field_cardiotonicos
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

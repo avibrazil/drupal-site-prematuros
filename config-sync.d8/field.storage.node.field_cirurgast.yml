@@ -1,0 +1,20 @@
+uuid: 5A92FEFF-3085-4192-8B53-0ED7CBC5F8B2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_cirurgast
+field_name: field_cirurgast
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

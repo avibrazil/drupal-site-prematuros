@@ -1,0 +1,28 @@
+uuid: 181935A0-1903-4E9A-9A4F-34DF066BAD8B
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_malfonfgas
+    - node.type.prematuro
+    - taxonomy.vocabulary.bistate
+id: node.prematuro.field_malfonfgas
+field_name: field_malfonfgas
+entity_type: node
+bundle: prematuro
+label: 'Malformação Onfalocele/gastrosquize'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      bistate: bistate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

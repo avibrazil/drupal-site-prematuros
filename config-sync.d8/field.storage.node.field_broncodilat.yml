@@ -1,0 +1,20 @@
+uuid: AA5E5669-522B-4125-9DF6-C75F66453A6C
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_broncodilat
+field_name: field_broncodilat
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

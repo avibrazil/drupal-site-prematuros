@@ -1,0 +1,20 @@
+uuid: E7503B71-B552-42D2-9FC0-BFAAD902A3C1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_encamnefrol
+field_name: field_encamnefrol
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

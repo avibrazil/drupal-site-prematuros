@@ -1,0 +1,20 @@
+uuid: 177b5e42-5e2e-4842-a567-71e0389eb5e8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_hipartsist
+field_name: field_hipartsist
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

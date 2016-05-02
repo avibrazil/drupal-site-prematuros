@@ -1,0 +1,23 @@
+uuid: b050265b-2f01-4f90-ae04-65d0f073740a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mae_parceirofixo
+    - node.type.prematuro
+id: node.prematuro.field_mae_parceirofixo
+field_name: field_mae_parceirofixo
+entity_type: node
+bundle: prematuro
+label: 'Mãe tem parceiro fixo'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Sim
+  off_label: Não
+field_type: boolean

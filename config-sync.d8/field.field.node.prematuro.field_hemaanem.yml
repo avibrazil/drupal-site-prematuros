@@ -1,0 +1,28 @@
+uuid: E27DA461-E3A6-407A-B542-AB3375695CF4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hemaanem
+    - node.type.prematuro
+    - taxonomy.vocabulary.bistate
+id: node.prematuro.field_hemaanem
+field_name: field_hemaanem
+entity_type: node
+bundle: prematuro
+label: 'Hematológico Anemia'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      bistate: bistate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,22 @@
+uuid: 39c2f928-b8f4-4c2a-905e-c1fa6551f873
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.token
+    - taxonomy.vocabulary.rh
+  module:
+    - text
+id: taxonomy_term.rh.token
+targetEntityType: taxonomy_term
+bundle: rh
+mode: token
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

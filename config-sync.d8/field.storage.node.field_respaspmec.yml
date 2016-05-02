@@ -1,0 +1,20 @@
+uuid: EED4F73E-A65D-4973-8399-467B8A03A867
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_respaspmec
+field_name: field_respaspmec
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

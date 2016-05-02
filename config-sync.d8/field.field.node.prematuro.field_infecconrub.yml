@@ -1,0 +1,28 @@
+uuid: 90B30D4D-E58A-45CB-A32F-BD6A1547AA1D
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_infecconrub
+    - node.type.prematuro
+    - taxonomy.vocabulary.bistate
+id: node.prematuro.field_infecconrub
+field_name: field_infecconrub
+entity_type: node
+bundle: prematuro
+label: 'Infecção Congênita Rubéola'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      bistate: bistate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

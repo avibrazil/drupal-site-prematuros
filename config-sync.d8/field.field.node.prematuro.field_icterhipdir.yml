@@ -1,0 +1,28 @@
+uuid: 1595C1B9-C032-42E7-843C-5CFA3C429A77
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_icterhipdir
+    - node.type.prematuro
+    - taxonomy.vocabulary.bistate
+id: node.prematuro.field_icterhipdir
+field_name: field_icterhipdir
+entity_type: node
+bundle: prematuro
+label: 'Icterícia Hiperbilirrubinemia Direta'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      bistate: bistate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

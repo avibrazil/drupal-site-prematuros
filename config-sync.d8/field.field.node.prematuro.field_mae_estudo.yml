@@ -1,0 +1,23 @@
+uuid: b77aa94e-9fe2-4886-afeb-10ee89849304
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mae_estudo
+    - node.type.prematuro
+id: node.prematuro.field_mae_estudo
+field_name: field_mae_estudo
+entity_type: node
+bundle: prematuro
+label: 'Anos de estudo da mãe'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

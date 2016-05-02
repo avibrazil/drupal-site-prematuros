@@ -1,0 +1,20 @@
+uuid: E89B5B28-1286-4C1E-B39E-EC1578EE65DA
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_cirurpca
+field_name: field_cirurpca
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

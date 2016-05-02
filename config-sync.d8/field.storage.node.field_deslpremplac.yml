@@ -1,0 +1,20 @@
+uuid: 4CC9E3A5-71CC-4C82-B97F-E42F19A88D6C
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_deslpremplac
+field_name: field_deslpremplac
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

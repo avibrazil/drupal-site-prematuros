@@ -1,0 +1,21 @@
+uuid: dfbcf6ae-deb9-4ecb-8ca6-a097f02bc633
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_data_alta
+    - node.type.prematuro
+  module:
+    - datetime
+id: node.prematuro.field_data_alta
+field_name: field_data_alta
+entity_type: node
+bundle: prematuro
+label: 'Data da alta'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

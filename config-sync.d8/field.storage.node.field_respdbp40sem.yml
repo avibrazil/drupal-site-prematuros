@@ -1,0 +1,20 @@
+uuid: 8997FCBF-B086-4B19-8EA3-F914140E8E25
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_respdbp40sem
+field_name: field_respdbp40sem
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

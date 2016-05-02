@@ -1,0 +1,1325 @@
+uuid: 8c598b85-9372-411c-9230-672d70c2ff41
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.prematuro.field_alcool
+    - field.field.node.prematuro.field_aminoglic
+    - field.field.node.prematuro.field_anefalc
+    - field.field.node.prematuro.field_antibiot
+    - field.field.node.prematuro.field_antibiotico
+    - field.field.node.prematuro.field_anticonv
+    - field.field.node.prematuro.field_anticonvul
+    - field.field.node.prematuro.field_antidepress
+    - field.field.node.prematuro.field_antihipert
+    - field.field.node.prematuro.field_antipsicot
+    - field.field.node.prematuro.field_antirretrov
+    - field.field.node.prematuro.field_betabloque
+    - field.field.node.prematuro.field_bolrotantparto
+    - field.field.node.prematuro.field_broncodil
+    - field.field.node.prematuro.field_broncodilat
+    - field.field.node.prematuro.field_cafeina
+    - field.field.node.prematuro.field_cardiohiperart
+    - field.field.node.prematuro.field_cardiohipotart
+    - field.field.node.prematuro.field_cardiopca
+    - field.field.node.prematuro.field_cardiotonicos
+    - field.field.node.prematuro.field_cirurdvp
+    - field.field.node.prematuro.field_cirurecn
+    - field.field.node.prematuro.field_cirurgast
+    - field.field.node.prematuro.field_ciruroutros
+    - field.field.node.prematuro.field_cirurpca
+    - field.field.node.prematuro.field_cirurrop
+    - field.field.node.prematuro.field_cirurtraqu
+    - field.field.node.prematuro.field_cocaina
+    - field.field.node.prematuro.field_computed_narrated_details
+    - field.field.node.prematuro.field_computed_narrated_mae
+    - field.field.node.prematuro.field_corioamnionite
+    - field.field.node.prematuro.field_corticoide
+    - field.field.node.prematuro.field_cortinal
+    - field.field.node.prematuro.field_cortisist
+    - field.field.node.prematuro.field_cortmaturidade
+    - field.field.node.prematuro.field_crack
+    - field.field.node.prematuro.field_ctcranio
+    - field.field.node.prematuro.field_data_alta
+    - field.field.node.prematuro.field_deslpremplac
+    - field.field.node.prematuro.field_dheg
+    - field.field.node.prematuro.field_diabgestacional
+    - field.field.node.prematuro.field_dialise
+    - field.field.node.prematuro.field_diamel
+    - field.field.node.prematuro.field_diureticos
+    - field.field.node.prematuro.field_diuretoutros
+    - field.field.node.prematuro.field_drentorac
+    - field.field.node.prematuro.field_encamcardio
+    - field.field.node.prematuro.field_encamcirped
+    - field.field.node.prematuro.field_encamgene
+    - field.field.node.prematuro.field_encamnefrol
+    - field.field.node.prematuro.field_encamneuro
+    - field.field.node.prematuro.field_encamurol
+    - field.field.node.prematuro.field_eoadireito
+    - field.field.node.prematuro.field_eoaesquerdo
+    - field.field.node.prematuro.field_foodplus
+    - field.field.node.prematuro.field_furosemida
+    - field.field.node.prematuro.field_gastrostomia
+    - field.field.node.prematuro.field_gender
+    - field.field.node.prematuro.field_hemaanem
+    - field.field.node.prematuro.field_hemacivd
+    - field.field.node.prematuro.field_hemaplaq
+    - field.field.node.prematuro.field_hemapoli
+    - field.field.node.prematuro.field_hipartsist
+    - field.field.node.prematuro.field_hipoterap
+    - field.field.node.prematuro.field_icterdefgpd
+    - field.field.node.prematuro.field_icterdhrnrh
+    - field.field.node.prematuro.field_icterdrrnabo
+    - field.field.node.prematuro.field_icterhipdir
+    - field.field.node.prematuro.field_icterproppt
+    - field.field.node.prematuro.field_imunossup
+    - field.field.node.prematuro.field_incomcervical
+    - field.field.node.prematuro.field_indomibuprofeno
+    - field.field.node.prematuro.field_infecconcmv
+    - field.field.node.prematuro.field_infecconrub
+    - field.field.node.prematuro.field_infecconsifilis
+    - field.field.node.prematuro.field_infeccontox
+    - field.field.node.prematuro.field_infececn
+    - field.field.node.prematuro.field_infecmening
+    - field.field.node.prematuro.field_infecostart
+    - field.field.node.prematuro.field_infecsepfun
+    - field.field.node.prematuro.field_infecseppre
+    - field.field.node.prematuro.field_infecseptar
+    - field.field.node.prematuro.field_infecurinaria
+    - field.field.node.prematuro.field_insrenal
+    - field.field.node.prematuro.field_insulina
+    - field.field.node.prematuro.field_isoirh
+    - field.field.node.prematuro.field_luperisist
+    - field.field.node.prematuro.field_maconha
+    - field.field.node.prematuro.field_mae_estudo
+    - field.field.node.prematuro.field_mae_nascimento
+    - field.field.node.prematuro.field_mae_nome
+    - field.field.node.prematuro.field_mae_parceirofixo
+    - field.field.node.prematuro.field_malfam
+    - field.field.node.prematuro.field_malfcabpes
+    - field.field.node.prematuro.field_malfcard
+    - field.field.node.prematuro.field_malfgast
+    - field.field.node.prematuro.field_malfonfgas
+    - field.field.node.prematuro.field_malfort
+    - field.field.node.prematuro.field_malfpulm
+    - field.field.node.prematuro.field_malfrenal
+    - field.field.node.prematuro.field_malfsindgen
+    - field.field.node.prematuro.field_malfsnc
+    - field.field.node.prematuro.field_malfurog
+    - field.field.node.prematuro.field_metadoemetoss
+    - field.field.node.prematuro.field_metaerrinamet
+    - field.field.node.prematuro.field_metafibcis
+    - field.field.node.prematuro.field_metahiper
+    - field.field.node.prematuro.field_metahipern
+    - field.field.node.prematuro.field_metahiperp
+    - field.field.node.prematuro.field_metahipocong
+    - field.field.node.prematuro.field_metahipog
+    - field.field.node.prematuro.field_metahipon
+    - field.field.node.prematuro.field_metainsren
+    - field.field.node.prematuro.field_mother_rh
+    - field.field.node.prematuro.field_nascimento
+    - field.field.node.prematuro.field_nascimento_provavel
+    - field.field.node.prematuro.field_neurohidposhem
+    - field.field.node.prematuro.field_neurolpv
+    - field.field.node.prematuro.field_neurooutros
+    - field.field.node.prematuro.field_neurosincon
+    - field.field.node.prematuro.field_opioides
+    - field.field.node.prematuro.field_outdoenintcurto
+    - field.field.node.prematuro.field_oxigenio
+    - field.field.node.prematuro.field_pai_nascimento
+    - field.field.node.prematuro.field_peateautdir
+    - field.field.node.prematuro.field_peateautesq
+    - field.field.node.prematuro.field_peso
+    - field.field.node.prematuro.field_placprevia
+    - field.field.node.prematuro.field_polhemextcor
+    - field.field.node.prematuro.field_prenatal
+    - field.field.node.prematuro.field_reanmasscard
+    - field.field.node.prematuro.field_reanmedicacoes
+    - field.field.node.prematuro.field_reanvppambiente
+    - field.field.node.prematuro.field_reanvppintubacao
+    - field.field.node.prematuro.field_reanvppoxigenio
+    - field.field.node.prematuro.field_respapneia
+    - field.field.node.prematuro.field_respaspmec
+    - field.field.node.prematuro.field_respdbp28dias
+    - field.field.node.prematuro.field_respdbp36sem
+    - field.field.node.prematuro.field_respdbp40sem
+    - field.field.node.prematuro.field_respescar
+    - field.field.node.prematuro.field_resphempul
+    - field.field.node.prematuro.field_resphippul
+    - field.field.node.prematuro.field_resppneu
+    - field.field.node.prematuro.field_respsdr
+    - field.field.node.prematuro.field_resptaqtran
+    - field.field.node.prematuro.field_rh
+    - field.field.node.prematuro.field_rmcranio
+    - field.field.node.prematuro.field_sedativos
+    - field.field.node.prematuro.field_sida
+    - field.field.node.prematuro.field_sifilis
+    - field.field.node.prematuro.field_sondagastr
+    - field.field.node.prematuro.field_sulfmagn
+    - field.field.node.prematuro.field_surfactante
+    - field.field.node.prematuro.field_tabaco
+    - field.field.node.prematuro.field_tranfetofetal
+    - field.field.node.prematuro.field_traorgsol
+    - field.field.node.prematuro.field_traquostomia
+    - field.field.node.prematuro.field_uscranio
+    - field.field.node.prematuro.field_vancomicina
+    - field.field.node.prematuro.field_vasoativas
+    - node.type.prematuro
+  module:
+    - datetime
+    - field_group
+    - path
+third_party_settings:
+  field_group:
+    group_mae:
+      children:
+        - field_mae_nome
+        - field_mae_nascimento
+        - field_mother_rh
+        - field_mae_parceirofixo
+        - field_mae_estudo
+        - field_pai_nascimento
+      parent_name: ''
+      weight: 7
+      label: 'Mãe e Pai'
+      format_type: details
+      format_settings:
+        open: false
+        required_fields: true
+        classes: ''
+        id: ''
+    group_rn:
+      children:
+        - field_nascimento
+        - field_nascimento_provavel
+        - field_data_alta
+        - field_peso
+        - field_gender
+        - field_rh
+      parent_name: ''
+      weight: 6
+      label: 'Recém Nascido'
+      format_type: details
+      format_settings:
+        formatter: closed
+        description: ''
+        classes: ''
+        id: ''
+        required_fields: true
+        open: false
+    group_anteclinicos:
+      children:
+        - field_luperisist
+        - field_hipartsist
+        - field_polhemextcor
+        - field_malfam
+        - field_insrenal
+        - field_diamel
+        - field_anefalc
+        - field_traorgsol
+      parent_name: ''
+      weight: 8
+      label: 'Antecedentes Clínicos'
+      format_type: details
+      format_settings:
+        open: false
+        required_fields: true
+        classes: ''
+        id: ''
+    group_gestacaoatual:
+      children:
+        - field_infecurinaria
+        - field_isoirh
+        - field_tranfetofetal
+        - field_placprevia
+        - field_incomcervical
+        - field_diabgestacional
+        - field_dheg
+        - field_deslpremplac
+        - field_corioamnionite
+        - field_sifilis
+        - field_sida
+      parent_name: ''
+      weight: 9
+      label: 'Gestação Atual'
+      format_type: details
+      format_settings:
+        open: false
+        required_fields: true
+        classes: ''
+        id: ''
+    group_habitosgestac:
+      children:
+        - field_alcool
+        - field_tabaco
+        - field_cocaina
+        - field_maconha
+        - field_crack
+      parent_name: ''
+      weight: 10
+      label: 'Hábitos Gestacionais'
+      format_type: details
+      format_settings:
+        open: false
+        required_fields: true
+        classes: ''
+        id: ''
+    group_drogasgestac:
+      children:
+        - field_betabloque
+        - field_antirretrov
+        - field_broncodil
+        - field_anticonv
+        - field_sulfmagn
+        - field_imunossup
+        - field_antibiot
+        - field_antihipert
+        - field_antidepress
+        - field_antipsicot
+        - field_corticoide
+        - field_cortmaturidade
+        - field_diureticos
+        - field_insulina
+        - field_cardiotonicos
+      parent_name: ''
+      weight: 11
+      label: 'Drogas Gestacionais'
+      format_type: details
+      format_settings:
+        open: false
+        required_fields: true
+        classes: ''
+        id: ''
+    group_tipoparto:
+      children:
+        - field_bolrotantparto
+      parent_name: ''
+      weight: 12
+      label: 'Tipo de Parto'
+      format_type: details
+      format_settings:
+        open: false
+        required_fields: true
+        classes: ''
+        id: ''
+    group_recnascomp:
+      children:
+        - field_reanvppintubacao
+        - field_reanvppambiente
+        - field_reanvppoxigenio
+        - field_reanmedicacoes
+        - field_reanmasscard
+      parent_name: ''
+      weight: 13
+      label: 'Recém Nascido Comp'
+      format_type: details
+      format_settings:
+        open: false
+        required_fields: true
+        classes: ''
+        id: ''
+    group_evolclinrn:
+      children:
+        - field_malfrenal
+        - field_malfsindgen
+        - field_malfpulm
+        - field_malfonfgas
+        - field_malfgast
+        - field_malfsnc
+        - field_malfort
+        - field_metahipern
+        - field_malfcard
+        - field_metahiperp
+        - field_metahiper
+        - field_metafibcis
+        - field_metadoemetoss
+        - field_metaerrinamet
+        - field_malfurog
+        - field_infecmening
+        - field_infecostart
+        - field_infececn
+        - field_infeccontox
+        - field_infecconcmv
+        - field_infecconsifilis
+        - field_infecsepfun
+        - field_infecseppre
+        - field_infecseptar
+        - field_metahipocong
+        - field_malfcabpes
+        - field_neurosincon
+        - field_resptaqtran
+        - field_respsdr
+        - field_resppneu
+        - field_resphempul
+        - field_resphippul
+        - field_respescar
+        - field_respdbp40sem
+        - field_neurooutros
+        - field_neurohidposhem
+        - field_metahipon
+        - field_metainsren
+        - field_outdoenintcurto
+        - field_respdbp28dias
+        - field_respdbp36sem
+        - field_respaspmec
+        - field_respapneia
+        - field_metahipog
+        - field_infecconrub
+        - field_cardiohiperart
+        - field_cardiopca
+        - field_cardiohipotart
+        - field_hemaanem
+        - field_icterproppt
+        - field_hemacivd
+        - field_icterhipdir
+        - field_icterdefgpd
+        - field_icterdrrnabo
+        - field_hemaplaq
+        - field_icterdhrnrh
+        - field_hemapoli
+        - field_neurolpv
+      parent_name: ''
+      weight: 14
+      label: 'Evolução Clínica do Recém Nascido'
+      format_type: details
+      format_settings:
+        open: false
+        required_fields: true
+        classes: ''
+        id: ''
+    group_medrecnasc:
+      children:
+        - field_sedativos
+        - field_surfactante
+        - field_vancomicina
+        - field_vasoativas
+        - field_indomibuprofeno
+        - field_opioides
+        - field_cortinal
+        - field_cortisist
+        - field_anticonvul
+        - field_broncodilat
+        - field_antibiotico
+        - field_aminoglic
+        - field_cafeina
+        - field_diuretoutros
+        - field_furosemida
+      parent_name: ''
+      weight: 15
+      label: 'Medicamentos do Recém Nascido'
+      format_type: details
+      format_settings:
+        open: false
+        required_fields: true
+        classes: ''
+        id: ''
+    group_procrecnasc:
+      children:
+        - field_cirurtraqu
+        - field_cirurrop
+        - field_cirurpca
+        - field_dialise
+        - field_ciruroutros
+        - field_cirurgast
+        - field_cirurecn
+        - field_cirurdvp
+        - field_drentorac
+        - field_hipoterap
+      parent_name: ''
+      weight: 16
+      label: 'Procedimentos no Recém Nascido'
+      format_type: details
+      format_settings:
+        open: false
+        required_fields: true
+        classes: ''
+        id: ''
+    group_exacomplem:
+      children:
+        - field_rmcranio
+        - field_uscranio
+        - field_ctcranio
+        - field_eoaesquerdo
+        - field_eoadireito
+        - field_foodplus
+        - field_peateautdir
+        - field_peateautesq
+      parent_name: ''
+      weight: 17
+      label: 'Exames Complementares'
+      format_type: details
+      format_settings:
+        open: false
+        required_fields: true
+        classes: ''
+        id: ''
+    group_dadosalta:
+      children:
+        - field_sondagastr
+        - field_traquostomia
+        - field_oxigenio
+        - field_gastrostomia
+        - field_encamurol
+        - field_encamcirped
+        - field_encamcardio
+        - field_encamnefrol
+        - field_encamgene
+        - field_encamneuro
+      parent_name: ''
+      weight: 18
+      label: 'Dados da Alta'
+      format_type: details
+      format_settings:
+        open: false
+        required_fields: true
+        classes: ''
+        id: ''
+id: node.prematuro.default
+targetEntityType: node
+bundle: prematuro
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+  field_alcool:
+    weight: 119
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_aminoglic:
+    weight: 83
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_anefalc:
+    weight: 41
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_antibiot:
+    weight: 124
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_antibiotico:
+    weight: 82
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_anticonv:
+    weight: 118
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_anticonvul:
+    weight: 80
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_antidepress:
+    weight: 127
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_antihipert:
+    weight: 126
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_antipsicot:
+    weight: 128
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_antirretrov:
+    weight: 115
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_betabloque:
+    weight: 114
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_bolrotantparto:
+    weight: 117
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_broncodil:
+    weight: 116
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_broncodilat:
+    weight: 81
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_cafeina:
+    weight: 84
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_cardiohiperart:
+    weight: 85
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_cardiohipotart:
+    weight: 89
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_cardiopca:
+    weight: 88
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_cardiotonicos:
+    weight: 148
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_cirurdvp:
+    weight: 87
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_cirurecn:
+    weight: 86
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_cirurgast:
+    weight: 79
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_ciruroutros:
+    weight: 78
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_cirurpca:
+    weight: 74
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_cirurrop:
+    weight: 73
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_cirurtraqu:
+    weight: 72
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_cocaina:
+    weight: 131
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_corioamnionite:
+    weight: 94
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_corticoide:
+    weight: 134
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_cortinal:
+    weight: 71
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_cortisist:
+    weight: 75
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_cortmaturidade:
+    weight: 136
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_crack:
+    weight: 135
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_ctcranio:
+    weight: 76
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_data_alta:
+    weight: 31
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+  field_deslpremplac:
+    weight: 80
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_dheg:
+    weight: 79
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_diabgestacional:
+    weight: 78
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_dialise:
+    weight: 77
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_diamel:
+    weight: 40
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_diureticos:
+    weight: 141
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_diuretoutros:
+    weight: 90
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_drentorac:
+    weight: 104
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_encamcardio:
+    weight: 103
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_encamcirped:
+    weight: 102
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_encamgene:
+    weight: 106
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_encamnefrol:
+    weight: 105
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_encamneuro:
+    weight: 107
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_encamurol:
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_eoadireito:
+    weight: 112
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_eoaesquerdo:
+    weight: 110
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_foodplus:
+    weight: 113
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_furosemida:
+    weight: 98
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_gastrostomia:
+    weight: 96
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_gender:
+    weight: 33
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_hemaanem:
+    weight: 91
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_hemacivd:
+    weight: 93
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_hemaplaq:
+    weight: 99
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_hemapoli:
+    weight: 108
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_hipartsist:
+    weight: 36
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_hipoterap:
+    weight: 109
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_icterdefgpd:
+    weight: 95
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_icterdhrnrh:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_icterdrrnabo:
+    weight: 97
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_icterhipdir:
+    weight: 94
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_icterproppt:
+    weight: 92
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_imunossup:
+    weight: 123
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_incomcervical:
+    weight: 70
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_indomibuprofeno:
+    weight: 57
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_infecconcmv:
+    weight: 34
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_infecconrub:
+    weight: 70
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_infecconsifilis:
+    weight: 35
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_infeccontox:
+    weight: 33
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_infececn:
+    weight: 32
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_infecmening:
+    weight: 30
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_infecostart:
+    weight: 31
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_infecsepfun:
+    weight: 36
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_infecseppre:
+    weight: 37
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_infecseptar:
+    weight: 38
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_infecurinaria:
+    weight: 25
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_insrenal:
+    weight: 39
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_insulina:
+    weight: 146
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_isoirh:
+    weight: 34
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_luperisist:
+    weight: 35
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_maconha:
+    weight: 132
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_mae_estudo:
+    weight: 11
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+  field_mae_nascimento:
+    weight: 8
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+  field_mae_nome:
+    weight: 7
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_mae_parceirofixo:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+  field_malfam:
+    weight: 38
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_malfcabpes:
+    weight: 40
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_malfcard:
+    weight: 23
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_malfgast:
+    weight: 19
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_malfonfgas:
+    weight: 18
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_malfort:
+    weight: 21
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_malfpulm:
+    weight: 17
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_malfrenal:
+    weight: 15
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_malfsindgen:
+    weight: 16
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_malfsnc:
+    weight: 20
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_malfurog:
+    weight: 29
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_metadoemetoss:
+    weight: 27
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_metaerrinamet:
+    weight: 28
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_metafibcis:
+    weight: 26
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_metahiper:
+    weight: 25
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_metahipern:
+    weight: 22
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_metahiperp:
+    weight: 24
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_metahipocong:
+    weight: 39
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_metahipog:
+    weight: 69
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_metahipon:
+    weight: 61
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_metainsren:
+    weight: 62
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_mother_rh:
+    weight: 9
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_nascimento:
+    weight: 29
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+  field_nascimento_provavel:
+    weight: 30
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+  field_neurohidposhem:
+    weight: 60
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_neurolpv:
+    weight: 111
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_neurooutros:
+    weight: 59
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_neurosincon:
+    weight: 41
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_opioides:
+    weight: 58
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_outdoenintcurto:
+    weight: 63
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_oxigenio:
+    weight: 64
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_pai_nascimento:
+    weight: 12
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+  field_peateautdir:
+    weight: 114
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_peateautesq:
+    weight: 115
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_peso:
+    weight: 32
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+  field_placprevia:
+    weight: 67
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_polhemextcor:
+    weight: 37
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_prenatal:
+    weight: 20
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_reanmasscard:
+    weight: 144
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_reanmedicacoes:
+    weight: 143
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_reanvppambiente:
+    weight: 140
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_reanvppintubacao:
+    weight: 129
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_reanvppoxigenio:
+    weight: 142
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_respapneia:
+    weight: 68
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_respaspmec:
+    weight: 67
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_respdbp28dias:
+    weight: 65
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_respdbp36sem:
+    weight: 66
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_respdbp40sem:
+    weight: 56
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_respescar:
+    weight: 55
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_resphempul:
+    weight: 47
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_resphippul:
+    weight: 48
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_resppneu:
+    weight: 46
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_respsdr:
+    weight: 45
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_resptaqtran:
+    weight: 42
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_rh:
+    weight: 34
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_rmcranio:
+    weight: 43
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_sedativos:
+    weight: 44
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_sida:
+    weight: 125
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_sifilis:
+    weight: 122
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_sondagastr:
+    weight: 49
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_sulfmagn:
+    weight: 121
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_surfactante:
+    weight: 50
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_tabaco:
+    weight: 120
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_tranfetofetal:
+    weight: 52
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_traorgsol:
+    weight: 42
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_traquostomia:
+    weight: 54
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_uscranio:
+    weight: 53
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_vancomicina:
+    weight: 51
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_vasoativas:
+    weight: 52
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  path:
+    type: path
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 3
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 4
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 19
+    settings: {  }
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  field_computed_narrated_details: true
+  field_computed_narrated_mae: true
+  langcode: true

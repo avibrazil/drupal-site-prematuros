@@ -1,0 +1,28 @@
+uuid: 6C465090-CA62-4E29-9F58-0A40E362DB9A
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_peateautdir
+    - node.type.prematuro
+    - taxonomy.vocabulary.tristate
+id: node.prematuro.field_peateautdir
+field_name: field_peateautdir
+entity_type: node
+bundle: prematuro
+label: PEATE-Automático-Direito
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tristate: tristate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

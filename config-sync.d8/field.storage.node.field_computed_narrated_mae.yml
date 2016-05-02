@@ -1,0 +1,22 @@
+uuid: 2b239475-88e2-4c87-8ef2-51a4cb7e439a
+langcode: en
+status: true
+dependencies:
+  module:
+    - computed_field
+    - node
+id: node.field_computed_narrated_mae
+field_name: field_computed_narrated_mae
+entity_type: node
+type: computed_string
+settings:
+  max_length: '1000'
+  is_ascii: false
+  case_sensitive: false
+module: computed_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

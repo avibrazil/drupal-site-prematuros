@@ -1,0 +1,28 @@
+uuid: C6CE78A7-8C69-40A9-87E0-2D4B8FC13CC4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_diureticos
+    - node.type.prematuro
+    - taxonomy.vocabulary.tristate
+id: node.prematuro.field_diureticos
+field_name: field_diureticos
+entity_type: node
+bundle: prematuro
+label: Diuréticos
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tristate: tristate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

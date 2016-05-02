@@ -1,0 +1,9 @@
+uuid: 5de04c12-d349-4209-8266-25456feefa10
+langcode: und
+status: true
+dependencies: {  }
+name: 'Bi State'
+vid: bistate
+description: 'General Yes/No selection'
+hierarchy: 0
+weight: -7

@@ -1,0 +1,20 @@
+uuid: 79891160-C4D2-49B6-AF27-CB168FA14E94
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_infececn
+field_name: field_infececn
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

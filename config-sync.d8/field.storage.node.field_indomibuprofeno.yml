@@ -1,0 +1,20 @@
+uuid: 4D304516-80F3-4441-8402-C07554D4CF0C
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_indomibuprofeno
+field_name: field_indomibuprofeno
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,19 @@
+uuid: 51459626-abd0-4e02-9468-1402efe7e877
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mae_nome
+    - node.type.prematuro
+id: node.prematuro.field_mae_nome
+field_name: field_mae_nome
+entity_type: node
+bundle: prematuro
+label: 'Nome da mãe'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

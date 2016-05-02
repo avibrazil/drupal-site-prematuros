@@ -1,0 +1,20 @@
+uuid: 6C85ADBC-D9AF-4044-A8C1-44F3083483B9
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_reanvppoxigenio
+field_name: field_reanvppoxigenio
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

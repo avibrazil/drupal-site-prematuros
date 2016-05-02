@@ -1,0 +1,20 @@
+uuid: 23E17065-96E3-4A22-85D0-62995CF420A3
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_polhemextcor
+field_name: field_polhemextcor
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

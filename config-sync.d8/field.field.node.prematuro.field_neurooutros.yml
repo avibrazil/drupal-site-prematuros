@@ -1,0 +1,28 @@
+uuid: 9C709F4A-D387-4C8E-8E28-8B93E3E07A4B
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_neurooutros
+    - node.type.prematuro
+    - taxonomy.vocabulary.bistate
+id: node.prematuro.field_neurooutros
+field_name: field_neurooutros
+entity_type: node
+bundle: prematuro
+label: 'Neurológico Outros'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      bistate: bistate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

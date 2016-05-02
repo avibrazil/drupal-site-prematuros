@@ -1,0 +1,18 @@
+uuid: 22cacbc3-d8a4-4eed-8b02-a8d44525abec
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.prematuro
+id: node.prematuro.title
+field_name: title
+entity_type: node
+bundle: prematuro
+label: Nome
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

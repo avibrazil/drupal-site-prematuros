@@ -1,0 +1,9 @@
+uuid: 9ba66973-ccb6-4613-afe5-2c7ae33ce6f8
+langcode: und
+status: true
+dependencies: {  }
+name: 'Tri State'
+vid: tristate
+description: 'Generic Yes•No•Undefined classifier'
+hierarchy: 0
+weight: -6

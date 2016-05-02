@@ -1,0 +1,20 @@
+uuid: 5489E54E-4D76-448A-9B91-8566593F716A
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_reanvppintubacao
+field_name: field_reanvppintubacao
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

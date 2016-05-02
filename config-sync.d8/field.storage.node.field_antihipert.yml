@@ -1,0 +1,20 @@
+uuid: 0A99C10C-B3EC-4DB3-84EC-0DA2C57DAAAE
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_antihipert
+field_name: field_antihipert
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

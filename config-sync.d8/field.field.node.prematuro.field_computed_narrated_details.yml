@@ -1,0 +1,24 @@
+uuid: 9529f3c2-88e0-4795-9c35-d9cb907e42aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_computed_narrated_details
+    - node.type.prematuro
+  module:
+    - computed_field
+id: node.prematuro.field_computed_narrated_details
+field_name: field_computed_narrated_details
+entity_type: node
+bundle: prematuro
+label: 'Computed narrated details'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings:
+  code: "switch ($entity->field_gender->target_id) {\r\n    case 6:\r\n\t\t$sexo=\"♂\";\r\n\t\tbreak;\r\n    case 5:\r\n\t\t$sexo=\"♀\";\t\r\n\t\tbreak;\r\n\tdefault:\r\n\t\t$sexo=\"indefinido\";\r\n}\r\n\r\n// -------\r\n\r\n$nas = new DateTime($entity->field_nascimento->value);\r\n$now = new DateTime(\"now\");\r\n\r\n$delta = $now->diff($nas,true);\r\n\r\nif ($delta->y >= 1) {\r\n\t$idade = $delta->format(\"%ya, %mm\");\r\n} else {\r\n\t$idade = $delta->format(\"%mm, %dd\");\r\n}\r\n\r\n// -------\r\n\r\n$provavel = new DateTime($entity->field_nascimento_provavel->value);\r\n$delta = $provavel->diff($nas,true);\r\n\r\n$dias = $delta->d % 7;\r\n$pre = \"\";\r\n\r\nif ($delta->d >= 7) {\r\n\t$pre = sprintf(\"%ds\", $delta->d / 7);\r\n}\r\n\r\nif ($dias > 0) {\r\n\tif ($pre != \"\") {\r\n\t\t$pre .= \", \";\r\n\t}\r\n\t\r\n\t$pre .= sprintf(\"%dd\", $dias);\r\n}\r\n\r\n// -------\r\n\r\n$altaa = new DateTime($entity->field_data_alta->value);\r\n$delta = $altaa->diff($nas,true);\r\n$alta = $delta->format(\"%dd\");\r\n\r\n// -------\r\n\r\nswitch ($entity->field_rh->target_id) {\r\n    case 3:\r\n\t\t$rh=\"➕\";\r\n\t\tbreak;\r\n    case 4:\r\n\t\t$rh=\"➖\";\r\n\t\tbreak;\r\n\tdefault:\r\n\t\t$rh=\"indefinido\";\r\n}\r\n\r\n\r\n\r\n$value = sprintf(\"<strong>%s</strong> • idade <strong>%s</strong> • prem <strong>%s</strong> • alta em <strong>%s</strong> • %dg • RH%s\",\r\n\t$sexo,\r\n\t$idade,\r\n\t$pre,\r\n\t$alta,\r\n\t$entity->field_peso->value,\r\n\t$rh);\r\n\r\n\r\n//$value = sprintf(\"<pre>%s</pre>\", print_r($entity_type_manager, true));\r\n"
+field_type: computed_string_long

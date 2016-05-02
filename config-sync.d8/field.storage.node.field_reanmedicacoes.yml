@@ -1,0 +1,20 @@
+uuid: 03928D5F-AEAD-4A19-B5EB-2C7EEAE1EF05
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_reanmedicacoes
+field_name: field_reanmedicacoes
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,28 @@
+uuid: C11DB9A5-4A96-49D2-8014-C34F5927F2BE
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cardiopca
+    - node.type.prematuro
+    - taxonomy.vocabulary.bistate
+id: node.prematuro.field_cardiopca
+field_name: field_cardiopca
+entity_type: node
+bundle: prematuro
+label: 'Cardiovascular PCA'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      bistate: bistate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

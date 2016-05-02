@@ -1,0 +1,21 @@
+uuid: 49a9c73b-380b-4c63-980c-e88145cee3e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pai_nascimento
+    - node.type.prematuro
+  module:
+    - datetime
+id: node.prematuro.field_pai_nascimento
+field_name: field_pai_nascimento
+entity_type: node
+bundle: prematuro
+label: 'Nascimento do Pai'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

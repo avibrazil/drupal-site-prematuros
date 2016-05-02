@@ -1,0 +1,28 @@
+uuid: 97E2C116-7C10-42B7-A06D-F33A8FF2A89B
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_resphempul
+    - node.type.prematuro
+    - taxonomy.vocabulary.bistate
+id: node.prematuro.field_resphempul
+field_name: field_resphempul
+entity_type: node
+bundle: prematuro
+label: 'Respiratório Hemorragia Pulmonar'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      bistate: bistate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

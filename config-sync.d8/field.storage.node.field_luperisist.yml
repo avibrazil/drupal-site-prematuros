@@ -1,0 +1,20 @@
+uuid: CE7DF8BC-A16F-4941-B488-81E2FF4C4C81
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_luperisist
+field_name: field_luperisist
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

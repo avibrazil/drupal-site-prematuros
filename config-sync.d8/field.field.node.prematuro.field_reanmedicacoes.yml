@@ -1,0 +1,28 @@
+uuid: D9E53ECD-94D4-465B-9A1E-3C0C70F31847
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_reanmedicacoes
+    - node.type.prematuro
+    - taxonomy.vocabulary.tristate
+id: node.prematuro.field_reanmedicacoes
+field_name: field_reanmedicacoes
+entity_type: node
+bundle: prematuro
+label: 'Reanimação Medicações'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tristate: tristate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

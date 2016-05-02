@@ -1,0 +1,22 @@
+uuid: 0e009a15-c7aa-497c-a3d2-f12326c64ae6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: paciente
+label: 'URL de Paciente'
+type: 'canonical_entities:node'
+pattern: '/[node:content-type:machine-name]/[node:field_nascimento]-[node:title]'
+selection_criteria:
+  e8cc7ef8-f8c2-4bba-b47b-40e0e2415d10:
+    id: node_type
+    bundles:
+      prematuro: prematuro
+    negate: false
+    context_mapping:
+      node: node
+    uuid: e8cc7ef8-f8c2-4bba-b47b-40e0e2415d10
+selection_logic: and
+weight: -5
+relationships: {  }

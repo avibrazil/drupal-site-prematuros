@@ -1,0 +1,16 @@
+uuid: 316c17dc-9783-4077-8818-5c4a15d288f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.blood_type
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.blood_type
+target_entity_type_id: taxonomy_term
+target_bundle: blood_type
+default_langcode: current_interface
+language_alterable: false

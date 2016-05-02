@@ -1,0 +1,16 @@
+uuid: 9d79ca24-3904-4d8a-9a4b-c7bd1e1bc981
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tristate
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.tristate
+target_entity_type_id: taxonomy_term
+target_bundle: tristate
+default_langcode: current_interface
+language_alterable: false

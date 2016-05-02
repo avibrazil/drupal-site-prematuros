@@ -1,0 +1,28 @@
+uuid: 0DF78E75-BAAD-4324-9A69-A27CA5EE9AA8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_broncodilat
+    - node.type.prematuro
+    - taxonomy.vocabulary.bistate
+id: node.prematuro.field_broncodilat
+field_name: field_broncodilat
+entity_type: node
+bundle: prematuro
+label: Broncodilatador
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      bistate: bistate
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

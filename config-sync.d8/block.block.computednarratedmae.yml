@@ -1,0 +1,47 @@
+uuid: 39f33dd6-7fa0-4e96-9a87-5d99347a0661
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - ctools_block
+    - node
+  theme:
+    - bartik
+id: computednarratedmae
+theme: bartik
+region: sidebar_second
+weight: -6
+provider: null
+plugin: 'entity_field:node:field_computed_narrated_mae'
+settings:
+  id: 'entity_field:node:field_computed_narrated_mae'
+  label: 'Sobre os pais do prematuro'
+  provider: ctools_block
+  label_display: visible
+  formatter:
+    label: hidden
+    type: computed_string
+    settings:
+      sanitized: 0
+      cache_unit: '-1'
+      cache_duration: '1'
+    third_party_settings: {  }
+    weight: 0
+  context_mapping:
+    entity: '@node.node_route_context:node'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      prematuro: prematuro
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  node_type:
+    id: node_type
+    bundles:
+      prematuro: prematuro
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

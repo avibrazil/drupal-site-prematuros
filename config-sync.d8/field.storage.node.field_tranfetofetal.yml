@@ -1,0 +1,20 @@
+uuid: 61A65CA3-201A-4F7A-A458-28ACF9C3644F
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_tranfetofetal
+field_name: field_tranfetofetal
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

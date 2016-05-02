@@ -1,0 +1,20 @@
+uuid: 97CA6EED-7E82-4252-8933-F6D8C4287D09
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_sulfmagn
+field_name: field_sulfmagn
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
