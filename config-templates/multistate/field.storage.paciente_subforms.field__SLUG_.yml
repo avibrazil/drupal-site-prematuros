@@ -1,0 +1,33 @@
+uuid: _UUID_
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - options
+id: paciente_subforms.field__SLUG_
+field_name: field__SLUG_
+entity_type: paciente_subforms
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: key1
+      label: 'Value 1'
+    -
+      value: key2
+      label: 'Value 2'
+    -
+      value: key3
+      label: 'Value 3'
+    -
+      value: key4
+      label: 'Value 4'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

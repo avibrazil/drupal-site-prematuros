@@ -1,0 +1,25 @@
+uuid: _UUID_
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.paciente_subforms._SLUG_
+    - field.field.paciente_subforms._SLUG_.field_paciente
+id: paciente_subforms._SLUG_.default
+targetEntityType: paciente_subforms
+bundle: _SLUG_
+mode: default
+hidden:
+  changed: true
+  created: true
+  id: true
+  langcode: true
+  uid: true
+content:
+  field_paciente:
+    weight: 0
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label

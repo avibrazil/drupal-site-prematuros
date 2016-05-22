@@ -1,0 +1,252 @@
+NULL	prematuro_alta	Dados de Alta	true	etype
+NULL	prematuro_antecedentes_clinicos	Antecedentes Clínicos	true	etype
+NULL	prematuro_exames_complementares	Exames Complementares	true	etype
+NULL	prematuro_gestacao	Gestação	true	etype
+NULL	prematuro_gestacao_drogas	Drogas Gestacionais	true	etype
+NULL	prematuro_gestacao_habitos	Hábitos Gestacionais	true	etype
+NULL	prematuro_rn_comp	Recém Nascido: complementos	true	etype
+NULL	prematuro_rn_evolucao	Recém Nascido: evolução	true	etype
+NULL	prematuro_rn_medicamentos	Recém Nascido: medicamentos	true	etype
+NULL	prematuro_rn_procedimentos	Recém Nascido: procedimentos	true	etype
+NULL	prematuro_rn_triagem	Recém Nascido: triagem	true	etype
+NULL	prematuro_tipo_parto	Tipo de Parto	true	etype
+prematuro_rn_comp	compcentim	Comprimento (centímetros)	false	float
+prematuro_rn_comp	perabdocentim	Perímetro Abdominal (centímetros)	false	float
+prematuro_rn_comp	percefalcentim	Perímetro Cefálico (centímetros)	false	float
+prematuro_rn_comp	pertoraccentim	Perímetro Torácico (centímetros)	false	float
+prematuro_rn_comp	apgar1	Apgar 1’	false	int
+prematuro_rn_comp	apgar5	Apgar 5’	false	int
+prematuro_rn_comp	apgar10	Apgar 10’	false	int
+prematuro_rn_comp	idadegesclindias	Idade Gestacional Clínica (dias)	false	int
+prematuro_rn_comp	idadegesclinsem	Idade Gestacional Clínica (semanas)	false	int
+prematuro_rn_comp	idadegesmatdias	Idade Gestacional Materna (dias)	false	int
+prematuro_rn_comp	idadegesmatsem	Idade Gestacional Materna (semanas)	false	int
+prematuro_rn_comp	idadeusdias	Idade Gestacional US (dias)	false	int
+prematuro_rn_comp	idadeussem	Idade Gestacional US (semanas)	false	int
+prematuro_rn_evolucao	maiorbiltotal	Maior Bilirrubina Total	false	float
+prematuro_rn_evolucao	neurohpiv	Neurológico HPIV	false	multistate
+prematuro_alta	fosmgdl	Fósforo (mg/dL)	false	float
+prematuro_alta	hbgdl	Hb (g/dL)	false	float
+prematuro_alta	htperc	Ht (%)	false	float
+prematuro_alta	retperc	Ret (%)	false	float
+prematuro_alta	sattransperc	Sat transferrina (%)	false	float
+prematuro_alta	ferritimcgl	Ferritina (mcg/L)	false	int
+prematuro_alta	fosalcuil	Fosfatase alcalina (UI/L)	false	int
+prematuro_rn_triagem	d17ohp	17OHP	false	float
+prematuro_rn_triagem	irt	IRT	false	float
+prematuro_rn_triagem	pku	PKU	false	float
+prematuro_rn_triagem	t4livre	T4 livre	false	float
+prematuro_rn_triagem	tsh	TSH	false	float
+prematuro_rn_triagem	hemoglobina	Hemoglobina	false	multistate
+prematuro_tipo_parto	tembolrothoras	Tempo de bolsa rota (horas)	false	int
+prematuro_alta	encamcardio	Encaminhamento - Cardiologia	true	bistate
+prematuro_alta	encamcirped	Encaminhamento - Cirurgia Pediátrica	true	bistate
+prematuro_alta	encamgene	Encaminhamento - Genética	true	bistate
+prematuro_alta	encamnefrol	Encaminhamento - Nefrologia	true	bistate
+prematuro_alta	encamneuro	Encaminhamento - Neurocirurgia	true	bistate
+prematuro_alta	encamoutros	Encaminhamento - Outros	true	bistate
+prematuro_alta	encamurol	Encaminhamento - Urologia	true	bistate
+prematuro_alta	gastrostomia	Gastrostomia	true	bistate
+prematuro_alta	oxigenio	Oxigênio	true	bistate
+prematuro_alta	sondagastr	Sonda gástrica	true	bistate
+prematuro_alta	traquostomia	Traqueostomia	true	bistate
+prematuro_alta	comprimcentim	Comprimento (centímetros)	true	float
+prematuro_alta	percperdpesos	% Perda de Peso	true	float
+prematuro_alta	perimabdcentim	Perímetro Abdominal (centímetros)	true	float
+prematuro_alta	perimcefcentim	Perímetro Cefálico (centímetros)	true	float
+prematuro_alta	perimtorcentim	Perímetro Torácico (centímetros)	true	float
+prematuro_alta	crmmedico	CRM do médico	true	string
+prematuro_alta	dietaentplendias	Dieta enteral plena (dias)	true	int
+prematuro_alta	iniciodietentdias	Início dieta enteral (dias)	true	int
+prematuro_alta	menorpesogramas	Menor Peso (gramas)	true	int
+prematuro_alta	menorpesoidadedias	Menor Peso Idade (dias)	true	int
+prematuro_alta	recuppndias	Recuperação do PN (dias)	true	int
+prematuro_alta	alimentacao	Alimentação	true	multistate
+prematuro_alta	classpesoxig	Classificação Peso x IG	true	multistate
+prematuro_alta	condalta	Condições de Alta	true	multistate
+prematuro_alta	tipoalta	Tipo de Alta	true	multistate
+prematuro_alta	nomemedico	Nome do médico	true	string
+prematuro_antecedentes_clinicos	anefalc	Anemia falciforme	true	bistate
+prematuro_antecedentes_clinicos	diamel	Diabetes melito	true	bistate
+prematuro_antecedentes_clinicos	insrenal	Insuficiência renal	true	bistate
+prematuro_antecedentes_clinicos	luperisist	Lúpus eritematosos sistêmico	true	bistate
+prematuro_antecedentes_clinicos	malfam	Malformações Família	true	bistate
+prematuro_antecedentes_clinicos	polhemextcor	Politransfundida/Hemodiálise/Extra-corpórea	true	bistate
+prematuro_antecedentes_clinicos	traorgsol	Transplante de órgãos sólidos	true	bistate
+prematuro_exames_complementares	ctcranio	CT crânio	true	bistate
+prematuro_exames_complementares	rmcranio	RM crânio	true	bistate
+prematuro_exames_complementares	uscranio	US crânio	true	bistate
+prematuro_exames_complementares	foodestagio	FO OD Estágio	true	multistate
+prematuro_exames_complementares	foodzona	FO OD Zona	true	multistate
+prematuro_exames_complementares	fooeestagio	FO OE Estágio	true	multistate
+prematuro_exames_complementares	fooezona	FO OE Zona	true	multistate
+prematuro_exames_complementares	peateclidireito	PEATE-Clínico-Direito	true	multistate
+prematuro_exames_complementares	peatecliesquerdo	PEATE-Clínico-Esquerdo	true	multistate
+prematuro_exames_complementares	eoadireito	EOA-Direito	true	tristate
+prematuro_exames_complementares	eoaesquerdo	EOA-Esquerdo	true	tristate
+prematuro_exames_complementares	foodplus	FO OD Plus	true	tristate
+prematuro_exames_complementares	fooeplus	FO OE Plus	true	tristate
+prematuro_exames_complementares	peateautdir	PEATE-Automático-Direito	true	tristate
+prematuro_exames_complementares	peateautesq	PEATE-Automático-Esquerdo	true	tristate
+prematuro_gestacao	corioamnionite	Corioamnionite	true	bistate
+prematuro_gestacao	deslpremplac	Descolocamento prematuro de placenta	true	bistate
+prematuro_gestacao	dheg	DHEG	true	bistate
+prematuro_gestacao	diabgestacional	Diabetes gestacional 	true	bistate
+prematuro_gestacao	incomcervical	Incompetência cervical	true	bistate
+prematuro_gestacao	infecurinaria	Infecção Urinária	true	bistate
+prematuro_gestacao	isoirh	Isoimunização Rh	true	bistate
+prematuro_gestacao	placprevia	Placenta prévia	true	bistate
+prematuro_gestacao	tranfetofetal	Transfusão feto-fetal	true	bistate
+prematuro_gestacao	gesta	Gesta	true	int
+prematuro_gestacao	nroconsultas	Número de consultas	true	int
+prematuro_gestacao	para	Para	true	int
+prematuro_gestacao	citomegalo	Citomegalovírus	true	multistate
+prematuro_gestacao	hepatiteb	Hepatite B	true	multistate
+prematuro_gestacao	hepatitec	Hepatite C	true	multistate
+prematuro_gestacao	maeabo	Mãe ABO	true	multistate
+prematuro_gestacao	maeci	Mãe CI	true	multistate
+prematuro_gestacao	nrobolamn	Nº bolsas amnióticas	true	multistate
+prematuro_gestacao	nrofetos	Nº fetos	true	multistate
+prematuro_gestacao	nroplacentas	Nº placentas	true	multistate
+prematuro_gestacao	rnabo	RN ABO	true	multistate
+prematuro_gestacao	rnacabo	RN AcABO	true	multistate
+prematuro_gestacao	rubeola	Rubéola	true	multistate
+prematuro_gestacao	toxoplasmose	Toxoplasmose	true	multistate
+prematuro_gestacao	gemelar	Gemelar	true	multistate
+prematuro_gestacao	local	Local	true	multistate
+prematuro_gestacao	maerh	Mãe Rh	true	tristate
+prematuro_gestacao	rncd	RN CD	true	tristate
+prematuro_gestacao	rnrh	RN Rh	true	tristate
+prematuro_gestacao	sida	SIDA	true	tristate
+prematuro_gestacao	sifilis	Sifilis	true	tristate
+prematuro_gestacao	prenatal	Pré-Natal	true	tristate
+prematuro_gestacao_drogas	antibiot	Antibióticos	true	tristate
+prematuro_gestacao_drogas	anticonv	Anticonvulsionante	true	tristate
+prematuro_gestacao_drogas	antidepress	Andidepressivos	true	tristate
+prematuro_gestacao_drogas	antihipert	Anti-hipertensivos	true	tristate
+prematuro_gestacao_drogas	antipsicot	Antipsicóticos	true	tristate
+prematuro_gestacao_drogas	antirretrov	Antirretrovirais	true	tristate
+prematuro_gestacao_drogas	betabloque	Beta bloqueador	true	tristate
+prematuro_gestacao_drogas	broncodil	Broncodilatador	true	tristate
+prematuro_gestacao_drogas	cardiotonicos	Cardiotônicos	true	tristate
+prematuro_gestacao_drogas	corticoide	Corticóide	true	tristate
+prematuro_gestacao_drogas	cortmaturidade	Corticóide para maturidade	true	tristate
+prematuro_gestacao_drogas	diureticos	Diuréticos	true	tristate
+prematuro_gestacao_drogas	imunossup	Imunossupressor	true	tristate
+prematuro_gestacao_drogas	insulina	Insulina	true	tristate
+prematuro_gestacao_drogas	sulfmagn	Sulfato magnésio	true	tristate
+prematuro_gestacao_habitos	nrocigarrosdia	número de cigarros dia	true	int
+prematuro_gestacao_habitos	alcool	Álcool	true	tristate
+prematuro_gestacao_habitos	cocaina	Cocaína	true	tristate
+prematuro_gestacao_habitos	crack	Crack	true	tristate
+prematuro_gestacao_habitos	maconha	Maconha	true	tristate
+prematuro_gestacao_habitos	tabaco	Tabaco	true	tristate
+prematuro_rn_comp	idadegescondias	Idade Gestacional considerada (dias)	true	int
+prematuro_rn_comp	idadegesconsem	Idade Gestacional considerada (semanas)	true	int
+prematuro_rn_comp	snappeii	SNAPPEII	true	int
+prematuro_rn_comp	classigxpn	Classificação IGxPN	true	multistate
+prematuro_rn_comp	reanmasscard	Reanimação Massagem Cardíaca	true	tristate
+prematuro_rn_comp	reanmedicacoes	Reanimação Medicações	true	tristate
+prematuro_rn_comp	reanvppambiente	Reanimação VPP ar ambiente	true	tristate
+prematuro_rn_comp	reanvppintubacao	Reanimação VPP intubação	true	tristate
+prematuro_rn_comp	reanvppoxigenio	Reanimação VPP oxigênio	true	tristate
+prematuro_rn_evolucao	cardiohiperart	Cardiovascular Hipertensão Arterial	true	bistate
+prematuro_rn_evolucao	cardiohipotart	Cardiovascular Hipotensão Arterial	true	bistate
+prematuro_rn_evolucao	cardiopca	Cardiovascular PCA	true	bistate
+prematuro_rn_evolucao	hemaanem	Hematológico Anemia	true	bistate
+prematuro_rn_evolucao	hemacivd	Hematológico CIVD	true	bistate
+prematuro_rn_evolucao	hemaplaq	Hematológico Plaquetopenia	true	bistate
+prematuro_rn_evolucao	hemapoli	Hematológico Policitemia	true	bistate
+prematuro_rn_evolucao	icterdefgpd	Ictericia Deficiência G¨PD	true	bistate
+prematuro_rn_evolucao	icterdhrnrh	Icterícia DHRN-Rh	true	bistate
+prematuro_rn_evolucao	icterdrrnabo	Icterícia DRRN-ABO	true	bistate
+prematuro_rn_evolucao	icterhipdir	Icterícia Hiperbilirrubinemia Direta	true	bistate
+prematuro_rn_evolucao	icterproppt	Icterícia Própria PT	true	bistate
+prematuro_rn_evolucao	infecconcmv	Infecção Congênita CMV	true	bistate
+prematuro_rn_evolucao	infecconrub	Infecção Congênita Rubéola	true	bistate
+prematuro_rn_evolucao	infecconsifilis	Infecção Congênita Sífilis	true	bistate
+prematuro_rn_evolucao	infeccontox	Infecção Congênita Toxoplasmose	true	bistate
+prematuro_rn_evolucao	infececn	Infecção ECN	true	bistate
+prematuro_rn_evolucao	infecmening	Infecção Meningite	true	bistate
+prematuro_rn_evolucao	infecostart	Infecção Osteo-articular	true	bistate
+prematuro_rn_evolucao	infecsepfun	Infecção Sepse Fungica	true	bistate
+prematuro_rn_evolucao	infecseppre	Infecção Sepse Precoce	true	bistate
+prematuro_rn_evolucao	infecseptar	Infecção Sepse Tardia	true	bistate
+prematuro_rn_evolucao	malfcabpes	Malformação Cabeça e Pescoço	true	bistate
+prematuro_rn_evolucao	malfcard	Malformação Cardíaca	true	bistate
+prematuro_rn_evolucao	malfgast	Malformação Gastrintestinal	true	bistate
+prematuro_rn_evolucao	malfonfgas	Malformação Onfalocele/gastrosquize	true	bistate
+prematuro_rn_evolucao	malfort	Malformação Ortopédica	true	bistate
+prematuro_rn_evolucao	malfpulm	Malformação Pulmonar	true	bistate
+prematuro_rn_evolucao	malfrenal	Malformação Renal	true	bistate
+prematuro_rn_evolucao	malfsindgen	Malformação Síndrome Genética	true	bistate
+prematuro_rn_evolucao	malfsnc	Malformação SNC	true	bistate
+prematuro_rn_evolucao	malfurog	Malformação Urogenital	true	bistate
+prematuro_rn_evolucao	metadoemetoss	Metabólico Doença Metabólica Óssea	true	bistate
+prematuro_rn_evolucao	metaerrinamet	Metabólico Erro Inato do Metabolismo	true	bistate
+prematuro_rn_evolucao	metafibcis	Metabólico Fibrose Cística	true	bistate
+prematuro_rn_evolucao	metahiper	Metabólico Hiperglicemia	true	bistate
+prematuro_rn_evolucao	metahipern	Metabólico Hipernatremia	true	bistate
+prematuro_rn_evolucao	metahiperp	Metabólico Hiperpotassemia	true	bistate
+prematuro_rn_evolucao	metahipocong	Metabólico Hipotireoidismo congênito	true	bistate
+prematuro_rn_evolucao	metahipog	Metabólico Hipoglicemia	true	bistate
+prematuro_rn_evolucao	metahipon	Metabólico Hiponatremia	true	bistate
+prematuro_rn_evolucao	metainsren	Metabólico Insuficiência Renal	true	bistate
+prematuro_rn_evolucao	neurohidposhem	Neurológico Hidrocefalia pós-hemorrágica	true	bistate
+prematuro_rn_evolucao	neurooutros	Neurológico Outros	true	bistate
+prematuro_rn_evolucao	neurosincon	Neurológico Síndrome Convulsiva	true	bistate
+prematuro_rn_evolucao	outdoenintcurto	Outras Doencas S.Intestino Curto	true	bistate
+prematuro_rn_evolucao	respapneia	Respiratório Apneia	true	bistate
+prematuro_rn_evolucao	respaspmec	Respiratório S. Aspiração de Mecônio	true	bistate
+prematuro_rn_evolucao	respdbp28dias	Respiratório DBP 28 dias	true	bistate
+prematuro_rn_evolucao	respdbp36sem	Respiratório DBP 36 semanas	true	bistate
+prematuro_rn_evolucao	respdbp40sem	Respiratório DBP 40 semanas	true	bistate
+prematuro_rn_evolucao	respescar	Respiratório S. Escape Ar	true	bistate
+prematuro_rn_evolucao	resphempul	Respiratório Hemorragia Pulmonar	true	bistate
+prematuro_rn_evolucao	resphippul	Respiratório Hipertensão Pulmonar 	true	bistate
+prematuro_rn_evolucao	resppneu	Respiratório Pneumonia	true	bistate
+prematuro_rn_evolucao	respsdr	Respiratório SDR	true	bistate
+prematuro_rn_evolucao	resptaqtran	Respiratório Taquipnéia Transitória	true	bistate
+prematuro_rn_evolucao	neurolpv	Neurológico LPV	true	tristate
+prematuro_rn_medicamentos	aminoglic	Aminoglicosídeo	true	bistate
+prematuro_rn_medicamentos	antibiotico	Antibiótico	true	bistate
+prematuro_rn_medicamentos	anticonvul	Anti-convulsivantes	true	bistate
+prematuro_rn_medicamentos	broncodilat	Broncodilatador	true	bistate
+prematuro_rn_medicamentos	cafeina	Cafeína	true	bistate
+prematuro_rn_medicamentos	cortinal	Corticoide inalatório	true	bistate
+prematuro_rn_medicamentos	cortisist	Corticoide sistêmico	true	bistate
+prematuro_rn_medicamentos	diuretoutros	Diuréticos - Outros	true	bistate
+prematuro_rn_medicamentos	furosemida	Furosemida	true	bistate
+prematuro_rn_medicamentos	indomibuprofeno	Indometacina Ibuprofeno	true	bistate
+prematuro_rn_medicamentos	opioides	Opióides	true	bistate
+prematuro_rn_medicamentos	sedativos	Sedativos	true	bistate
+prematuro_rn_medicamentos	surfactante	Surfactante	true	bistate
+prematuro_rn_medicamentos	vancomicina	Vancomicina	true	bistate
+prematuro_rn_medicamentos	vasoativas	Vasoativas	true	bistate
+prematuro_rn_procedimentos	cirurdvp	Cirurgia DVP	true	bistate
+prematuro_rn_procedimentos	cirurecn	Cirurgia ECN	true	bistate
+prematuro_rn_procedimentos	cirurgast	Cirurgia Gastrostomia	true	bistate
+prematuro_rn_procedimentos	ciruroutros	Cirurgia Outros	true	bistate
+prematuro_rn_procedimentos	cirurpca	Cirurgia PCA	true	bistate
+prematuro_rn_procedimentos	cirurrop	Cirurgia ROP	true	bistate
+prematuro_rn_procedimentos	cirurtraqu	Cirurgia Traqueostomia	true	bistate
+prematuro_rn_procedimentos	dialise	Diálise	true	bistate
+prematuro_rn_procedimentos	drentorac	Drenagem torácida	true	bistate
+prematuro_rn_procedimentos	hipoterap	Hipotermia Terapêutica	true	bistate
+prematuro_rn_procedimentos	catpercut	Cat percutâneo	true	int
+prematuro_rn_procedimentos	catumbart	Cat umbilical arterial	true	int
+prematuro_rn_procedimentos	catumbven	Cat umbilical venoso	true	int
+prematuro_rn_procedimentos	concglob	Conc. Glóbulos	true	int
+prematuro_rn_procedimentos	cpap	CPAP	true	int
+prematuro_rn_procedimentos	crioprecipitado	Crioprecipitado	true	int
+prematuro_rn_procedimentos	flebotomia	Flebotomia	true	int
+prematuro_rn_procedimentos	imunoglobulina	Imunoglobulina	true	int
+prematuro_rn_procedimentos	npp	NPP	true	int
+prematuro_rn_procedimentos	oxidonitrico	Óxido nitrico	true	int
+prematuro_rn_procedimentos	plaquetas	Plaquetas	true	int
+prematuro_rn_procedimentos	plasma	Plasma	true	int
+prematuro_rn_procedimentos	ventaltfreq	Vent. Alta frequência	true	int
+prematuro_rn_procedimentos	ventinvasiva	Vent. Invasiva	true	int
+prematuro_rn_procedimentos	ventnaoinvasiva	Vent. não invasiva	true	int
+prematuro_tipo_parto	tipoparto	Tipo de Parto	true	multistate
+prematuro_tipo_parto	bolrotantparto	Bolsa Rota Antes do Parto	true	tristate

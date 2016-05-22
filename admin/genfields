@@ -4,26 +4,50 @@
 
 UUIDGEN=uuidgen
 
-tpl=$1
-dataFile=$2
-
-files=()
-count=0
-
-for f in `\ls -1 "$tpl"/*yml`; do
-	files[$count]=`basename "$f"`
-	count=$((count + 1))	
-done
-
+dataFile=$1
 
 IFS="	"
-cat $dataFile | while read -a field; do
+cat $dataFile | while read -a datum; do
+
+	echo ${datum[4]} : ${datum[1]}
+
+	unset files
+	unset count
+	
+	tpl=${datum[4]}
+
+	files=()
+	ll=0
+	
+	IFS="
+"
+	for f in `\ls -1 $tpl/*yml`; do
+		files[$ll]=`basename "$f"`
+		ll=$((ll + 1))
+	done
+	IFS="	"
+
+#	echo $ll : ${files[2]}
+
 	for f in ${files[@]}; do
 		u1=`$UUIDGEN`
 
 		target=$f
-		target=${target/_SLUG_/${field[0]}}
+		target=${target/_PARENT_/${datum[0]}}
+		target=${target/_SLUG_/${datum[1]}}
 		
-		sed -e "s|_SLUG_|${field[0]}|g; s|_NAME_|${field[1]}|g; s|_UUID_|$u1|g;" < "$tpl/$f" > "$target"
+		sed -e "s|_PARENT_|${datum[0]}|g; s|_SLUG_|${datum[1]}|g; s|_NAME_|${datum[2]}|g; s|_UUID_|$u1|g; s|_REQ_|${datum[3]}|g;" < "$tpl/$f" > "$target"
 	done
+done
+
+exit
+
+
+# run the following manually after genfields to join the parts files:
+
+cat etypes.csv | while read f; do
+	cat core.entity_view_display.paciente_subforms.$f.default.content_part.*.yml >> core.entity_view_display.paciente_subforms.$f.default.yml;
+	cat core.entity_view_display.paciente_subforms.$f.default.config_part.*.yml  >> core.entity_view_display.paciente_subforms.$f.default.yml;
+	cat core.entity_form_display.paciente_subforms.$f.default.content_part.*.yml >> core.entity_form_display.paciente_subforms.$f.default.yml;
+	cat core.entity_view_display.paciente_subforms.$f.default.config_part.*.yml  >> core.entity_form_display.paciente_subforms.$f.default.yml;
 done

@@ -1,18 +1,18 @@
-uuid: _UUID_ 
+uuid: a651fe95-a599-4129-b0b2-ec66e46996e8
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field__SLUG_
-    - node.type.prematuro
-    - taxonomy.vocabulary.tristate
-id: node.prematuro.field__SLUG_
+    - eck.eck_type.paciente_subforms._PARENT_
+    - field.storage.paciente_subforms.field__SLUG_
+    - taxonomy.vocabulary.bistate
+id: paciente_subforms._PARENT_.field__SLUG_
 field_name: field__SLUG_
-entity_type: node
-bundle: prematuro
-label: _NAME_
+entity_type: paciente_subforms
+bundle: _PARENT_
+label: '_NAME_'
 description: ''
-required: true
+required: _REQ_
 translatable: false
 default_value: {  }
 default_value_callback: ''
@@ -20,7 +20,7 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      tristate: tristate
+      bistate: bistate
     sort:
       field: _none
     auto_create: false

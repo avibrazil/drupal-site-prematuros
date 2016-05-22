@@ -1,0 +1,9 @@
+uuid: _UUID_
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.paciente_subforms
+name: '_NAME_'
+type: _SLUG_
+description: ''

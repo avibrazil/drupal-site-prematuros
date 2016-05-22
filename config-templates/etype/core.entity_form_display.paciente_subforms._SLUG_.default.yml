@@ -1,0 +1,24 @@
+uuid: _UUID_
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.paciente_subforms._SLUG_
+    - field.field.paciente_subforms._SLUG_.field_paciente
+id: paciente_subforms._SLUG_.default
+targetEntityType: paciente_subforms
+bundle: _SLUG_
+mode: default
+hidden:
+  created: true
+  langcode: true
+  uid: true
+content:
+  field_paciente:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete

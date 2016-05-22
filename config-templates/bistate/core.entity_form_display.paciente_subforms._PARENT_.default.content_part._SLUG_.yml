@@ -1,5 +1,5 @@
   field__SLUG_:
-    weight: 36
+    weight: 6
     settings: {  }
     third_party_settings: {  }
-    type: options_select
+    type: options_buttons

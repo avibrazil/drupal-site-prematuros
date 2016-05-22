@@ -1,5 +1,6 @@
   field__SLUG_:
-    weight: 35
+    weight: 5
+    label: inline
     settings: {  }
     third_party_settings: {  }
-    type: options_select
+    type: list_default

@@ -1,0 +1,23 @@
+uuid: _UUID_
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.paciente_subforms._PARENT_
+    - field.storage.paciente_subforms.field__SLUG_
+id: paciente_subforms._PARENT_.field__SLUG_
+field_name: field__SLUG_
+entity_type: paciente_subforms
+bundle: _PARENT_
+label: '_NAME_'
+description: ''
+required: _REQ_
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

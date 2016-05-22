@@ -1,0 +1,6 @@
+  field__SLUG_:
+    weight: 3
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number

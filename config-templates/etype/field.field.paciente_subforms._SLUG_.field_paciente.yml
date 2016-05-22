@@ -1,0 +1,25 @@
+uuid: _UUID_
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.paciente_subforms._SLUG_
+    - field.storage.paciente_subforms.field_paciente
+id: paciente_subforms._SLUG_.field_paciente
+field_name: field_paciente
+entity_type: paciente_subforms
+bundle: _SLUG_
+label: Paciente
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: prematuros
+      display_name: prematuro_selector
+      arguments: {  }
+field_type: entity_reference

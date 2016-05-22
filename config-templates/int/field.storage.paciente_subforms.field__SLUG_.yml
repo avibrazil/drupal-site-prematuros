@@ -1,15 +1,16 @@
-uuid: _UUID1_
+uuid: _UUID_
+langcode: en
 status: true
 dependencies:
   module:
-    - node
-    - taxonomy
-id: node.field__SLUG_
+    - eck
+id: paciente_subforms.field__SLUG_
 field_name: field__SLUG_
-entity_type: node
-type: entity_reference
+entity_type: paciente_subforms
+type: integer
 settings:
-  target_type: taxonomy_term
+  unsigned: false
+  size: normal
 module: core
 locked: false
 cardinality: 1
